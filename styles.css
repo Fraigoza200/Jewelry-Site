@@ -5,11 +5,12 @@
 }
 
 body {
-  background-color: #181818;
+  background-color: #000;
   margin-top: 3rem;
   margin-bottom: 3rem;
   margin-right: 5%;
   margin-left: 5%;
+  color: #fff;
 }
 
 title {
@@ -17,7 +18,7 @@ title {
   font-family: 'Merriweather', serif;
 }
 
-header img {
+header>img {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -37,11 +38,62 @@ nav li {
 a {
   font-family: 'Lato', sans-serif;
   font-family: 'Merriweather', serif;
-  font-size: 40px;
+  font-size: 20px;
   color: #fff;
   text-decoration: none;
 }
+
 a:hover {
   color: maroon;
   transition: 1.5s ease;
+}
+
+#gallery-ear-ring {
+  border-radius: 25px;
+}
+
+#background-blur {
+  padding: 25px;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(190deg, rgba(0, 0, 0, 1) 0%, rgba(24, 24, 24, 1) 100%);
+  border-radius: 25px;
+  margin-right: 10rem;
+  
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  font-family: 'Merriweather', serif;
+  font-size: 110px;
+  font-weight: 100;
+  text-align: center;
+}
+
+.section1-para {
+  margin-top: 3rem;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Merriweather', serif;
+  line-height: 2;
+}
+
+section {
+  display: flex;
+}
+
+article {
+  flex: 1;
+}
+
+footer {
+  display: flex;
+  margin-top: 3rem;
+}
+
+
+footer div {
+  flex: 1;
+}
+
+div>img {
+  width: 100%;
 }
