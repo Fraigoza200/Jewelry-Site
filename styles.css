@@ -4,10 +4,44 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #181818;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
 title {
   font-family: 'Lato', sans-serif;
   font-family: 'Merriweather', serif;
 }
+
 header img {
-  margin: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  padding: 55px;
+}
+
+a {
+  font-family: 'Lato', sans-serif;
+  font-family: 'Merriweather', serif;
+  font-size: 40px;
+  color: #fff;
+  text-decoration: none;
+}
+a:hover {
+  color: maroon;
+  transition: 1.5s ease;
 }
